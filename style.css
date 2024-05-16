@@ -1,5 +1,6 @@
 main {
   margin-top: 60px;
+  
 }
 
 main h1 {
@@ -26,4 +27,47 @@ main h3 {
 main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
+  font-size: 12px;
+}
+
+main img{
+  width: 100%;
+}
+
+section {
+  display: flex;
+  margin: 20px auto;
+  width: 800px;
+}
+
+article {
+  flex:1;
+  margin: 10px;
+}
+
+#top1{
+  flex: 1;
+}
+
+#top2 {
+  flex: 2
+}
+
+#first {
+  width: 100%;
+}
+
+#second{
+  width: 65%;
+}
+
+#bottom {
+  background-color: brown;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+
+#bottom img{
+  width: 18%;
+  
 }
